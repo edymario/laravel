@@ -1,0 +1,18 @@
+POST /artigo HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   222
+Content-Type:     application/x-www-form-urlencoded; charset=UTF-8
+Cookie:           pll_language=pt; _gcl_au=1.1.1843091367.1580869504; _ga=GA1.1.1453913963.1580869504; _gid=GA1.1.1060560264.1580869504; rdtrk=%7B%22id%22%3A%228b6ed1d5-1276-4d7e-afda-7ace280dc6b9%22%7D; XSRF-TOKEN=eyJpdiI6IjhsZXpzY1ViWHRuQnlLZEJWOW9lVmc9PSIsInZhbHVlIjoiVmJIenR3SFFFZnpwRk53aXNUSUZZQXh1V3JOMFhDeCtaOG1CbFRSM3FueG9UV0ZITldjUXgzTWRcLzdLeFhhc0QiLCJtYWMiOiI2NTk1MDBjZDcxZmVmMDg1YWYzOWJhNTZhNDc1NTU0NWUyYzUwNDViNTAzMGZmOGM1MjVmODIzMTliOWIyNWYzIn0%3D; laravel_session=eyJpdiI6IjNaa2o0M0JCdUZoWFIxME92dUZjTVE9PSIsInZhbHVlIjoiMEw4c3BkQ3Jzc1ptVkV4VU4rbnhlWlduNjN3TVlDaHNcL0tkSnB4VUM1YjRnOUFVemtjcGs3TGZIY0RpdGRlM2oiLCJtYWMiOiJiNGEyZTE2MWM1ZmViMjRiZWQ3ZWQ3MjEyM2JlNzk5ODFkYjBjMTgzNmQwZDMzNzBiMDlmOGRiMWJlMmUxZTA3In0%3D
+Host:             127.0.0.1:8000
+Origin:           http://127.0.0.1:8000
+Referer:          http://127.0.0.1:8000/home
+Sec-Fetch-Mode:   cors
+Sec-Fetch-Site:   same-origin
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Cookie: pll_language=; _gcl_au=; _ga=; _gid=; rdtrk=; XSRF-TOKEN=YTecafZLsCAWlILnYZCzreWHsphAi74bLQc7MZyt; laravel_session=2PVXSuPeW8R7xUmAmXBrILiJDqqh1OmAxR4kqVP3
+
+dado%5Btitulo%5D=Dados+ou+informa%C3%A7%C3%B5es%3A+qual+%C3%A9+mais+importante+para+o+processo+decis%C3%B3rio%3F&dado%5Bpage%5D=https%3A%2F%2Fuplexis.com.br%2Fblog%2Fgestao%2Fdados-ou-informacoes-para-processo-decisorio%2F
