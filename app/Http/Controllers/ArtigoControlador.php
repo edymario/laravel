@@ -16,16 +16,15 @@ class ArtigoControlador extends Controller
     private $artigo;
 
 
+
     public function  __construct(){
         $this->artigo = $artigo = new Artigo();
     }
 
     public function index()
     {
-        //$id= Auth::user()->id;
-        $artigos = $this->artigo->where('id_usuario','1')->get();
+        $artigos = $this->artigo->where('id_usuario',auth()->user()->id)->get();
         return view('artigo', compact(['artigos']));
-      //  dd($artigos);
     }
 
 
