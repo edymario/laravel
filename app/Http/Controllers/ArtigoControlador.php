@@ -37,16 +37,10 @@ class ArtigoControlador extends Controller
      */
     public function store(Request $request)
     {
-       // dd($request->titulo);
-      try{
             $this->artigo->id_usuario = '1';
             $this->artigo->titulo = $request->input('titulo');
             $this->artigo->link = $request->input('page');
             $this->artigo->save();
-        } catch (Exception $e){
-            echo 'ERRO NA GRAVAÇÃO DO ARTIGO';
-        }
-
     }
 
 
