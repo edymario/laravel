@@ -36,7 +36,7 @@ class ArtigoControlador extends Controller
      */
     public function store(Request $request)
     {
-            $this->artigo->id_usuario = '1';
+            $this->artigo->id_usuario = $request->input('id_usu');
             $this->artigo->titulo = $request->input('titulo');
             $this->artigo->link = $request->input('page');
             $this->artigo->save();

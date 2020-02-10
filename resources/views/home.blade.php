@@ -1,4 +1,5 @@
 
+<?php $id = auth()->user()->id?>
 @extends('layouts.app')
 
 @section('content')
@@ -66,10 +67,12 @@
     });
 
 function savePost(info){
+    let id = "<?php print $id; ?>";
+    console.log(id);
    $.ajax({
         method: "POST",
         url: 'http://127.0.0.1:8000/artigo',
-        data: {titulo: info.titulo, page:info.page},
+        data: {id_usu:id,  titulo: info.titulo, page:info.page},
         success: function (val) {
         }
    });
