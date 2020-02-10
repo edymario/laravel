@@ -68,7 +68,6 @@
 
 function savePost(info){
     let id = "<?php print $id; ?>";
-    console.log(id);
    $.ajax({
         method: "POST",
         url: 'http://127.0.0.1:8000/artigo',
